@@ -110,7 +110,7 @@ public class SailorBotAuto extends LinearOpMode {
             // this is the forward moving method
             //not the backward. do not mix it up
 
-            armMotor.setDirection(DcMotorSimple.Direction.FORWARD);
+            armMotor.setDirection(DcMotorSimple.Direction.REVERSE);
             armMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
             int tick_Distance = 4304; //4304
              armMotor.setPower(1); //0.5
